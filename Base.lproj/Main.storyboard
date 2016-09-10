@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="amgerGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XGe-jR-5yd">
+                                <rect key="frame" x="155" y="279" width="10" height="10"/>
+                                <color key="backgroundColor" red="0.82745105029999999" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Don't let anger burst" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49Q-Uc-LNl">
+                                <rect key="frame" x="0.0" y="28" width="320" height="80"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
+                                <color key="textColor" red="0.82745105029999999" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="your bubble. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nl-DR-n5S">
+                                <rect key="frame" x="0.0" y="96" width="320" height="39"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
+                                <color key="textColor" red="0.82745105029999999" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eh3-Il-dVA">
+                                <rect key="frame" x="20" y="190" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="learn anger coping techniques">
+                                    <color key="titleColor" red="0.82745105029999999" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2nl-DR-n5S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="2fy-C0-eF6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2nl-DR-n5S" secondAttribute="trailing" constant="-20" id="3wj-YR-h3k"/>
+                            <constraint firstItem="2nl-DR-n5S" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="76" id="787-cl-FCP"/>
+                            <constraint firstItem="eh3-Il-dVA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7B6-jH-HnK"/>
+                            <constraint firstItem="eh3-Il-dVA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="83R-05-g0l"/>
+                            <constraint firstItem="eh3-Il-dVA" firstAttribute="top" secondItem="2nl-DR-n5S" secondAttribute="bottom" constant="55" id="CtK-Jn-KMX"/>
+                            <constraint firstItem="eh3-Il-dVA" firstAttribute="top" secondItem="2nl-DR-n5S" secondAttribute="bottom" constant="55" id="DCc-Me-mCM"/>
+                            <constraint firstItem="49Q-Uc-LNl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Ig8-wF-qtr"/>
+                            <constraint firstItem="49Q-Uc-LNl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Rrz-Qw-GCv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="49Q-Uc-LNl" secondAttribute="trailing" constant="-20" id="gJu-Re-hgA"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Ei4-LP-5Qu" appends="YES" id="Gdf-GI-yKr"/>
+                        </connections>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="anger1" destination="49Q-Uc-LNl" id="hJF-W6-LFj"/>
+                        <outlet property="anger2" destination="2nl-DR-n5S" id="3J9-cX-SkH"/>
+                        <outlet property="angerButton" destination="eh3-Il-dVA" id="P3q-4z-ULe"/>
+                        <outlet property="burstView" destination="XGe-jR-5yd" id="fHz-ds-Oaf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Ei4-LP-5Qu"/>
+            </objects>
+            <point key="canvasLocation" x="357" y="323"/>
+        </scene>
+    </scenes>
+</document>
